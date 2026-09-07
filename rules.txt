@@ -1,0 +1,136 @@
+---
+title: 'Rules for Thermodynamics competition, Science Olympiad 2027, Divs. B and C
+---
+Teams will:
+* construct a device prior to the tournament designed to collect heat and 
+* complete a written test on thermodynamcis concepts.
+
+APPROXIMATE TIME: 50 Minutes 
+TEAM OF UP TO: 2 
+CALCULATOR: Class III
+IMPOUND: Yes
+
+## TEST PARAMETERS:
+
+Written Test counts for 50% of final score.
+
+Teams will bring a constructed device optimized to let a lamp heat water in a bowl
+designed by the team.
+
+### Rules for the written test:
+
+There will be at least 3 questions from each of the following topics:
+Answers must be in metric units with appropriate significant figures.
+
+1. Thermodynamic ssytems
+    a. Intensive and extensive properties of a system
+    b. Definition of temperature
+    c. The zeroth law of thermodynamics
+    d. temperature scales and conversions
+    e. definition of heat-related units
+
+2. Phases of matter
+    a. Phase transitions
+    b. Phase diagrams
+    c. Latent and Sensible heat
+    d. Ideal gas law
+ 
+3. Heat transfer
+    a. Kinds of heat transfer
+    b. Thermal conductivity
+    c. Heat capacity
+    d. Specific heat
+
+4. Thermodynamic Processes
+    a. Type of processes
+       a1. Adiabatic
+       a2. Isothermal
+       a3. Isochoric
+       a4. Isobaric 
+    b. Cycles
+    c. Engines 
+    d. Efficiency
+    e. First and second Law of Thermodynamics
+
+5. History, particularly the contributions of:
+    a. Lord Kelvin
+    b. Joseph Black
+    c. Joule
+    d. Carnot
+    e. Clausius
+    f. Boltzman
+    g. James Clerk Maxwell
+    h. Max Planck  
+
+### Rules for the Device Test
+
+1. Teams will design and build a device to heat a cup of water using an overhead lamp.
+
+2. Devices may not contain:
+    a. Hazardous materials, such as 
+        a1. asbestos
+        a2. mineral wool
+        a3. fiberglass 
+    b. Commercially available components, including
+        b1. Thermometers
+        b2. Temperature probes
+        b3. Coolers
+        b4. Vacuum sealed devices
+
+3. Within the device, participants must be able to insert and remove a 
+9 oz disposable plastice party cup filled with room-temperature water. 
+
+4. The device, including the cup of water, must fit within a cube, 35.0 cm on each side when
+it is set up for testing.
+
+5. Parts of the device may be be added to the water inside the cup
+
+6. No part of the device may contact the water. 
+
+7. Devices must not contain any energy source that would help warm the water, such as:
+    a. electrical components
+    b. battery powered heaters
+    c. chemical component that will cause chemical reactions
+
+8. Nothing may be added to the water.
+
+9. The team will place the device on a surface, hereafter called "the testing surface",
+like a table or countertop.
+ 
+10.  Multiple identical setups may be used.
+
+11. Each team will be provided a clamp lamp with metal reflector with a 100W incandescent, 
+non-frosted bulb.  The lamp will be mounted facing down, above the testing surface, in such
+a way that the device can sit centered under the lamp.
+
+12. The bottommost point of the bulb above the testing surface will be 40cm.
+
+13. Each team will receive 1 container of water containing 100mL of water from a "water bath"
+containing room temperature water.  The water container will a be disposable, 
+clear plastic 9oz. party cup approximately 4.0 inches tall.
+
+14. The event judge will measure and record the temperature of the water as soon as it is
+placed in the cup. 
+
+15. The team will insert the cup of water into their device.  
+
+16. At the start of the competition, each team will be told:
+    * the height of the bulb above the testing surface
+    * the heating time
+    * the temperature of the room
+    * the temperature of the water in the source water bath
+
+17. After the device, with the water cup in it, is set up, the event judge will   
+turn on the heating lamp for 1 minute.
+
+18. The team must predict the final temperature after the 1 minute of heating.
+
+19. At the end of 1 minute, the cup will be removed from the device.
+
+20. The event supervisor will then measure the temperature of the water.
+
+21. The team will be scored on 2 aspects of the competition:
+    a. Their device achieved the hightest temperature gain of all the teams competing, for 30% of 
+the final score, and
+    b. Their prediction of the temperature of the water at the end of the heating period is the most accurate, for 20% of the final score.
+
