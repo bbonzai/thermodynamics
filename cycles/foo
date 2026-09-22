@@ -1,0 +1,10 @@
+Three points define a certain PV curve.  
+Point 1 has P=1 bar, V=1 cubic meter. 
+Point 2 has P=2 bars, V=2 cubic meter. 
+Point 3 has P=1 bar, V=4 cubic meters.  
+Between Point 2 and Point 3, PV=constant.  
+The cycle is performed on 2 kg of air.  
+What is the work from P1 to P2?
+What is the work from P2 to P3?
+What is the work from P3 to P4?
+What is the work per cycle in kJ?

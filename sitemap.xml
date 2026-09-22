@@ -31,6 +31,15 @@
         <loc>https://localhost/~sgk/thermodynamics/processes/</loc>
       </url>
       <url>
+        <loc>https://localhost/~sgk/thermodynamics/cycles/</loc>
+      </url>
+      <url>
+        <loc>https://localhost/~sgk/thermodynamics/cycles/p14-usfo/</loc>
+      </url>
+      <url>
+        <loc>https://localhost/~sgk/thermodynamics/cycles/p24-usfo/</loc>
+      </url>
+      <url>
         <loc>https://localhost/~sgk/thermodynamics/history/</loc>
       </url>
 </urlset>
