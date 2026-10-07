@@ -1,0 +1,99 @@
+---
+title: "Gas Laws"
+---
+Notes:
+
+* The Laws of Thermodynamics are not arranged/named *historically* but *logically*:
+
+* In 1850-1851, Clausius and Lord Kelvin independently came up with a statement of laws of thermodynamics systems, and
+chose to enumerate them logially, not historically.  
+
+* The "0th" law wasn't even stated until the 20th century, and when it was, was thought to be even more
+foundational that all the others.
+
+## Zeroth Law 
+
+The 0th law defined temperature, and scientists realized it was so foundational that it
+logically preceded the other laws.  
+
+## First Law (Energy)
+
+Energy cannot be created or destroyed.  The concept of energy is considered so foundational 
+that logically, this law preceded the others.
+
+$$
+\Delta U = Q - W
+$$
+
+where:
+
+* $U$ = internal energy of a system
+* $Q$ = heat transferred **into** the system
+* $W$ = work done **by** the system
+
+## Second Law (Temperature and Pressure)
+
+Defines the direction of energy flow and entropy (disorder).
+
+#### Boyle's Law (1662)
+
+  * If $T$ is held constant, then $V \propto 1/T$
+
+#### Gay-Lussac's Law (1802)
+
+  * If $V$ is held constant, then $P \propto T$
+
+#### Charles' Law (1802)
+
+  * If $P$ is held constant, then $V \propto T$
+
+Hot air ballooning was just introduced in the 1790's, and became popular throughout Europe.  Charles was 
+interested in laying a physical foundation for this phenomenon.
+
+#### Avogadro's number (1811)
+
+Avogadro found that:  $V \propto $ Number of gas molecules.
+
+#### Sadi Carnot's book (1824)
+
+Carnot combined Boyle's Law and Charles' Law, but never articulated the combined results of
+both laws.
+
+#### Ideal Gas Law (Benoit Clapeyron, 1834)
+
+Clapeyron read Carnot's book (which had been neglected) and stated a law which Carnot used but never articulated.
+
+An ideal gas is characterized by one where collisions between atoms and molecules can be ignored at room temperatures.
+
+The ideal gas law [put history here] states that, for an ideal gas:
+
+$$
+P V = N k T
+$$
+
+where:
+
+  * \(P = \) absolute pressure of a gas
+  * \(V = \) volume occupied by the gas
+  * \(N = \) number of particles in the gas
+  * \(k = \) Boltzman's constant 
+  * \(T = \) absolute temperature of the gas
+
+## Third Law (Entropy)
+
+Sometime between 1906 and 1912, Walther Nernst presented his "heat theorem".
+ 
+$S = 0$ when $T = 0$
+
+The entropy of a perfect crystal approaches zero as the temperature approaches absolute zero.
+
+Entropy ($S$) is a measure of disorder or randomness in a system.  At absolute zero, molecular motion
+stops and a pure crystal reaches its most ordered state, meaning the entropy is 0.
+
+You cannot reach absolute zero using any finite number of cooling steps.
+
+Progress in quantum computing is **directly** tied to working aound the 3rd Law of Thermodynamics.
+
+
+
+

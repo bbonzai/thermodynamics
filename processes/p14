@@ -1,0 +1,73 @@
+Three points define a certain PV curve.  
+Point 1 has P=1 bar, V=1 cubic meter. 
+Point 2 has 5 bars, V=1 cubic meter. 
+Point 3 has P=1 bar, V=5 cubic meters.  
+Between Point 2 and Point 3, PV=constant.  
+The cycle is performed on 1 kg of air.  
+
+What is the heat input into the cycle? 
+
+Thoughts expand_moreTo find the total heat input into the cycle, 
+we analyze each leg of the three-step cycle on the $PV$ diagram 
+using the First Law of Thermodynamics1 and the Ideal Gas Law23.1. 
+
+I.  Cycle Overview & Process Identification
+
+Converting pressure to standard units ($1\text{ bar} = 10^5\text{ Pa}$):
+Point 1: $P_1 = 1\text{ bar} = 10^5\text{ Pa}$, $V_1 = 1\text{ m}^3$
+Point 2: $P_2 = 5\text{ bar} = 5 \times 10^5\text{ Pa}$, $V_2 = 1\text{ m}^3$
+Point 3: $P_3 = 1\text{ bar} = 10^5\text{ Pa}$, $V_3 = 5\text{ m}^3$
+
+The cycle consists of three distinct processes:
+
+1. Process 1 $\rightarrow$ 2 (Constant Volume / Isochoric Heating): 
+Volume remains fixed at $V = 1\text{ m}^3$ while pressure increases 
+from $1\text{ bar}$ to $5\text{ bar}$.
+
+2. Process 2 $\rightarrow$ 3 (Isothermal Expansion): 
+Since $P_2 V_2 = P_3 V_3 = 5\text{ bar}\cdot\text{m}^3$, the path 
+$PV = \text{constant}$ represents an isothermal (constant temperature) 
+expansion
+
+3. Process 3 $\rightarrow$ 1 (Constant Pressure / Isobaric Compression): 
+Pressure remains fixed at $P = 1\text{ bar}$ while volume decreases 
+from $5\text{ m}^3$ to $1\text{ m}^3$.
+
+II. Calculating Heat Transfer for Each Process
+
+For air modeled as an ideal diatomic gas, the adiabatic index is 
+$\gamma = 1.4$ (so $\gamma - 1 = 0.4$)
+
+4.Process 1 $\rightarrow$ 2 (Isochoric Heating)Work done ($W_{12}$): 
+
+Since volume is constant, $W_{12} = 0\text{ J}$.Internal energy change 
+
+($\Delta U_{12}$): $$\Delta U_{12} = \frac{P_2 V_2 - P_1 V_1}{\gamma - 1} = \frac{(5 \times 10^5)(1) - (1 \times 10^5)(1)}{0.4} = \frac{4 \times 10^5}{0.4} = 1,000,000\text{ J} = 1000\text{ kJ}$$
+
+Heat added ($Q_{12}$): $$Q_{12} = \Delta U_{12} + W_{12} = \mathbf{1000\text{ kJ}} \quad (\text{Heat Input})$$
+
+Process 2 $\rightarrow$ 3 (Isothermal Expansion)
+
+Internal energy change ($\Delta U_{23}$): 
+
+Temperature is constant, so $\Delta U_{23} = 0\text{ J}$.
+
+Work done ($W_{23}$): 
+
+$$W_{23} = P_2 V_2 \ln\left(\frac{V_3}{V_2}\right) = (5 \times 10^5\text{ J}) \times \ln(5) \approx 5 \times 10^5 \times 1.60944 \approx 804,719\text{ J} = 804.72\text{ kJ}$$
+
+Heat added ($Q_{23}$): $$Q_{23} = \Delta U_{23} + W_{23} = \mathbf{804.72\text{ kJ}} \quad (\text{Heat Input})$$
+
+Process 3 $\rightarrow$ 1 (Isobaric Compression)
+
+Work done ($W_{31}$): $W_{31} = P_1(V_1 - V_3) = 10^5 \times (1 - 5) = -400,000\text{ J} = -400\text{ kJ}$
+
+Internal energy change ($\Delta U_{31}$): $\Delta U_{31} = \frac{P_1 V_1 - P_3 V_3}{\gamma - 1} = \frac{-4 \times 10^5}{0.4} = -1000\text{ kJ}$
+
+Heat released ($Q_{31}$): $Q_{31} = \Delta U_{31} + W_{31} = -1400\text{ kJ}$ ($\text{Heat Rejected / Output}$)
+
+3. Total Heat Input
+
+Heat enters the cycle during processes 1 $\rightarrow$ 2 and 2 $\rightarrow$ 3 (where $Q > 0$):
+
+$$Q_{\text{in}} = Q_{12} + Q_{23} = 1000\text{ kJ} + 804.72\text{ kJ} = \mathbf{1804.72\text{ kJ}} \quad (\text{or } \mathbf{1.805\text{ MJ}})$$
