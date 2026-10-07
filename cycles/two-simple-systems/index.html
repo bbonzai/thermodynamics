@@ -12,7 +12,7 @@
         <meta name="author" content="None">
       
       
-        <link rel="canonical" href="https://localhost/~sgk/thermodynamics/processes/efficiency/">
+        <link rel="canonical" href="https://localhost/~sgk/thermodynamics/cycles/two-simple-systems/">
       
       
       
@@ -25,7 +25,7 @@
     
     
       
-        <title>Efficiency - thermodynamics</title>
+        <title>Two Simple Systems - thermodynamics</title>
       
     
     
@@ -80,7 +80,8 @@
     <label class="md-overlay" for="__drawer" aria-label="Navigation"></label>
     <div data-md-component="skip">
       
-        <a href="#__skip" class="md-skip">
+        
+        <a href="#case-1-pressure-is-built-up-by-isochoric-pressurization-but-trelieved-during-isothermal-expansion" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Efficiency
+              Two Simple Systems
             
           </span>
         </div>
@@ -583,7 +584,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../processes/" class="md-nav__link ">
               
   
   
@@ -654,7 +655,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../cycles/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -696,7 +697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../cycles/p14-usfo/" class="md-nav__link">
+      <a href="../p14-usfo/" class="md-nav__link">
         
   
   
@@ -723,7 +724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../cycles/p24-usfo/" class="md-nav__link">
+      <a href="../p24-usfo/" class="md-nav__link">
         
   
   
@@ -899,6 +900,11 @@
                     
                     
                     
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
                   
                   <div class="md-sidebar__inner">
                     
@@ -908,6 +914,36 @@
   
   
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#case-1-pressure-is-built-up-by-isochoric-pressurization-but-trelieved-during-isothermal-expansion" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Case 1: Pressure is built up by isochoric pressurization, but trelieved during isothermal expansion.
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#case-2-pressure-is-built-up-by-increased-pressure-and-volume-but-relieved-during-isothermal-expansion" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Case 2: Pressure is built up by increased pressure <strong>and</strong> volume, but relieved during isothermal expansion.
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -922,7 +958,65 @@
                 
                   
 
-  <h1 id="__skip">Efficiency</h1>
+  <h1 id="__skip">Two Simple Systems</h1>
+
+<h3 id="case-1-pressure-is-built-up-by-isochoric-pressurization-but-trelieved-during-isothermal-expansion">Case 1: Pressure is built up by isochoric pressurization, but trelieved during isothermal expansion.</h3>
+<p>On Leg 1, pressure increases due to isochoric pressurization.
+Since <span class="arithmatex">\(\Delta V = 0\)</span>, no work is done by the system, but the internal energy of the system goes up.
+So <span class="arithmatex">\(\Delta U = \Delta Q\)</span>.</p>
+<div class="arithmatex">\[
+\begin{align}
+    \Delta U &amp; = k \cdot P_2V - P_1V \\\\ 
+    \Delta Q &amp; = k \cdot P_2V - P_1V \\\\ 
+\end{align}
+\]</div>
+<p>On Leg 2, Temperature stays constant <span class="arithmatex">\(\Delta U = 0\)</span>, but <span class="arithmatex">\(P\)</span> and <span class="arithmatex">\(V\)</span> <span class="arithmatex">\(\downarrow\)</span>.
+The system does work.</p>
+<div class="arithmatex">\[
+\begin{align}
+    \Delta U $ = 0 \\
+    \Delta Q &amp; = \Delta W \\ 
+             &amp; = \int_{V_2}^{V_3} P\mathrm{d}V \\\\
+             &amp; approx \sum+{i=1}^{n} P_i \delta V_i \\\
+\end{align}
+\]</div>
+<p>On Leg 3, <span class="arithmatex">\(P = \text{constant\)</span>, but the system is compressed, and since <span class="arithmatex">\(\Delta V is negative\)</span> (recall <span class="arithmatex">\(P.  The ideal
+gas law (\)</span>P \Delta V = nR \Delta T$) requires that when <span class="arithmatex">\(T &lt; 0\)</span>, the product <span class="arithmatex">\(P \Delta V &lt; 0\)</span>. </p>
+<p>This happens because the external world does work (\Delta Q) <strong>on</strong> the system:</p>
+<div class="arithmatex">\[
+\begin{align}
+    \Delta W &amp; = (-1) \times P \times (V_3 - V_1) \\
+    \Delta U $ = (-1) \times P(V_1 - V_3)) \\
+    \Delta Q &amp; = \Delta U + \Delta W 
+\end{align}
+\]</div>
+<h3 id="case-2-pressure-is-built-up-by-increased-pressure-and-volume-but-relieved-during-isothermal-expansion">Case 2: Pressure is built up by increased pressure <strong>and</strong> volume, but relieved during isothermal expansion.</h3>
+<p>On Leg 1, pressure and volume increase linearly.  </p>
+<div class="arithmatex">\[
+\begin{align}
+    \Delta W &amp; = (-1) \times P \times (V_3 - V_1) \\
+\end{align}
+\]</div>
+<p>On Leg 2, Temperature stays constant <span class="arithmatex">\(\Delta U = 0\)</span>, but <span class="arithmatex">\(P\)</span> and <span class="arithmatex">\(V\)</span> <span class="arithmatex">\(\downarrow\)</span>.
+The system does work.</p>
+<div class="arithmatex">\[
+\begin{align}
+    \Delta U $ = 0 \\
+    \Delta Q &amp; = \Delta W \\ 
+             &amp; = \int_{V_2}^{V_3} P\mathrm{d}V \\\\
+             &amp; approx \sum+{i=1}^{n} P_i \delta V_i \\\
+\end{align}
+\]</div>
+<p>On Leg 3, <span class="arithmatex">\(P = \text{constant\)</span>, but the system is compressed, and since <span class="arithmatex">\(\Delta V is negative\)</span> (recall <span class="arithmatex">\(P.  The ideal
+gas law (\)</span>P \Delta V = nR \Delta T$) requires that when <span class="arithmatex">\(T &lt; 0\)</span>, the product <span class="arithmatex">\(P \Delta V &lt; 0\)</span>. </p>
+<p>This happens because the external world does work (\Delta Q) <strong>on</strong> the system:</p>
+<div class="arithmatex">\[
+\begin{align}
+    \Delta W &amp; = (-1) \times P \times (V_3 - V_1) \\
+    \Delta U $ = (-1) \times P(V_1 - V_3)) \\
+    \Delta Q &amp; = \Delta U + \Delta W 
+\end{align}
+\]</div>
 
 
 
@@ -932,7 +1026,8 @@
 
 
 
-
+  
+  
 
 
 
